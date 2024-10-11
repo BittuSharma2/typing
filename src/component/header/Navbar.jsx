@@ -4,20 +4,20 @@ function Navbar(){
 
     return(
         <>
-            <div className="flex justify-between border-2 border-black px-6 py-1">
-                <div>
-                    <img src="" alt="logo" />
+            <div class="border border-black  flex justify-between rounded-lg w-4/5 m-auto p-3 mt-3 ">
+                <div class=" ">
+                <img src="" alt="logo"/>
                 </div>
-                <div className="flex space-x-8">
-                    <a href="">Home</a>
-                    <a href="">Number</a>
-                    <a href="">Lession</a>
-                    <a href="">About</a>
 
-                </div>
-                <div>
-                    <p>mode</p>
-
+                <div class="space-x-10 ">
+                     <a href="">Home</a>
+                     <a href="">number</a>
+                     <a href="">about</a>
+                     <a href="">learn</a>
+                 </div>
+  
+                <div class="w-12 rounded-xl border border-black">
+                    <div class="h-full w-1/2 rounded-xl bg-black border border-black active:float-end"></div>
                 </div>
             </div>
 
